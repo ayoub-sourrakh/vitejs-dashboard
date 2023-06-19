@@ -1,0 +1,30 @@
+.buttonSidebar{
+	display:flex;
+	position: relative;
+	align-items: center;
+	font-size: 20px;
+	gap:9px;
+	padding:18px 15px;
+	margin-left: 22px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	cursor:pointer;
+}
+
+.buttonSidebar >svg{
+	width:30px;
+}
+
+.buttonSidebar >.notification{
+	position: absolute;
+	right:32px;
+	background: #CF3A59;
+	color:#fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 6px 9px 4px 9px;
+	border-radius: 4px;
+}

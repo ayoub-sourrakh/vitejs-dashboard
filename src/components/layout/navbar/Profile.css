@@ -1,0 +1,33 @@
+.profileNavbarMain{
+	display: flex;
+	align-items: center;
+	gap:24px;
+}
+
+.profileNavbarMain >.photo{
+	width: 52px;
+	height: 52px;
+	overflow: hidden;
+	border-radius: 9px;
+}
+.profileNavbarMain >.photo >img{
+	display: block;
+	width:100%;
+	height:100%;
+	object-fit: cover;
+	
+}
+.profileNavbarMain >.infos{}
+.profileNavbarMain >.infos >h1{
+	font-weight: 700;
+	font-size: 18px;
+}
+.profileNavbarMain >.infos >h2{
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 6px;
+}
+.profileNavbarMain >.chevron{}
+.profileNavbarMain >.chevron >svg{
+	width:30px;
+}

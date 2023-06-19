@@ -1,0 +1,4 @@
+.contentDashboard{
+	margin-left: var(--sidebar-dashboard-width);
+	margin-top: var(--navbar-main-height);
+}

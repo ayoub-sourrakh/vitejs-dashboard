@@ -1,0 +1,11 @@
+.subMenuSidebar{
+
+}
+
+.subMenuSidebar >h1{
+	color:#51CBFF;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 36px;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+.widgetWrapper{
+	background:white;
+	border-radius: 8px;
+	box-shadow: 0px 5px 10px #F1F2FA;
+}
+
+.widgetWrapper >.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 23px 20px 23px 26px;
+	border-bottom: 1px solid #ededed;
+}
+.widgetWrapper >.header >h1{
+	color:#1C1F37;
+	font-weight: 700;
+	font-size: 23px;
+	letter-spacing: 0.7px;
+}
+.widgetWrapper >.header >a{
+	display: flex;
+	align-items: center;
+	gap:17px;
+	font-size: 16px;
+	color:#017EFA;
+	font-weight: 600;
+	text-decoration: none;
+
+}
+.widgetWrapper >.header >a >svg{
+	width:9px;
+	transform: rotate(180deg);
+	
+}
+.widgetWrapper >.header >a >svg >path{
+	fill:#017EFA !important;
+}
+
+.widgetWrapper >.content{}

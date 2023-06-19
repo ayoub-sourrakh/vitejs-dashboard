@@ -1,0 +1,9 @@
+.statBar{
+	height:11px;
+	background:white;
+	display:flex;
+	align-items: center;
+	gap:3px;
+	border-radius:40px;
+	overflow: hidden;
+}

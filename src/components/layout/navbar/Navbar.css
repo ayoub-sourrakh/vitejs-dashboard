@@ -1,0 +1,31 @@
+.navbarMain{
+	position:fixed;
+	top:0;
+	right:0;
+	left: var(--sidebar-dashboard-width);
+	height:var(--navbar-main-height);
+	background:#f8f9ff;
+	z-index:10;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #DADADA;
+	padding:0px 50px 0px 84px;
+}
+
+.navbarMain >.left{
+	display:flex;
+	align-items: center;
+	/* background:orange; */
+}
+
+.navbarMain >.right{
+	display: flex;
+	align-items: center;	
+}
+
+.navbarMain .separator{
+	height:56px;
+	width:1px;
+	background:#DADADA;
+}

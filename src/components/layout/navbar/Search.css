@@ -1,0 +1,24 @@
+.searchNavbar{
+	display: flex;
+	align-items: center;
+}
+
+.searchNavbar >svg{
+	width: 30px;
+}
+
+.searchNavbar >input{
+	margin-left: 14px;
+	font-size: 18px;
+	border: unset;
+	background: unset;
+}
+
+.searchNavbar >input::placeholder{
+	color: #979797;
+	opacity: 1;
+}
+
+.searchNavbar >input:focus{
+	outline:unset;
+}

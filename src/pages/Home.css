@@ -1,0 +1,32 @@
+.homePage{
+	display: flex;
+	padding-bottom: 40px;
+
+}
+
+.homePage >.left{
+	padding-top:28px;
+	padding-left:80px;
+	width:580px;
+	min-width:580px;
+}
+
+.homePage >.left >h1{
+	color:#1C1F37;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.homePage >.left >h2{
+	font-size: 18px;
+	color:#6F6F6F;
+	font-weight: 400;
+	padding-top: 4px;
+	letter-spacing: 0.5px;
+}
+
+.homePage >.right{
+	flex: 1;
+	margin-left: 55px;
+	margin-right: 65px;
+}
